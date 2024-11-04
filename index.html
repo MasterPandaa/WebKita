@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign-Up Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+<header>
+  <nav>
+    <h3 class="logo"><a href="home.html">WEBKITA</a></h3>
+    <ul class="navigation">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="index2.html">Login</a></li>  
+      <li><a href="index.html">Sign Up</a></li>
+        </div>
+      </li>
+    </ul>
+  </nav>
+	<h1>Sign-Up</h1>
+  <div id="langit">
+    <div class="awan no1"></div>
+    <div class="awan no2"></div>
+    <div class="awan no3"></div>
+    <div class="awan no4"></div>
+    <div class="awan no5"></div>
+  </div>
+</header>
+
+<div id="form">
+
+  <div class="fish" id="fish"></div>
+  <div class="fish" id="fish2"></div>
+  <div class="fish" id="fish3"></div>
+  <div class="fish" id="fish4"></div>
+  <div class="ikan" id="ikan1"></div>
+  <div class="ikan" id="ikan2"></div>
+  <div class="ikan" id="ikan3"></div>
+  <div class="iwak" id="iwak1"></div>
+  <div class="iwak" id="iwak2"></div>
+  <div class="iwak" id="iwak3"></div>
+  <div class="iwak" id="iwak4"></div>
+
+  <form id="waterform" action="input.php" method="post" onsubmit="return validateForm()">
+
+  <div class="formgroup" id="nama-form">
+    <label for="nama">Nama*</label>
+    <input type="text" id="nama" name="nama" placeholder=" Masukkan Nama" required 
+    oninvalid="this.setCustomValidity('Data tidak boleh kosong!')" oninput="setCustomValidity('')"/>
+  </div>
+
+  <div class="formgroup" id="alamat-form">
+    <label for="alamat">Alamat*</label>
+    <textarea id="alamat" name="alamat" placeholder=" Masukkan Alamat" required 
+    oninvalid="this.setCustomValidity('Data tidak boleh kosong!')" oninput="setCustomValidity('')"></textarea>
+  </div>
+
+  <div class="formgroup" id="umur-form">
+    <label for="umur">Umur*</label>
+    <input type="text" id="umur" name="umur" placeholder=" Masukkan Umur" required 
+    oninvalid="this.setCustomValidity('Data tidak boleh kosong!')" oninput="setCustomValidity('')"/>
+  </div>
+
+  <div class="formgroup" id="email-form">
+    <label for="email">E-mail*</label>
+    <input type="email" id="email" name="email" placeholder=" Masukkan E-mail" required 
+    oninvalid="this.setCustomValidity('Data tidak boleh kosong!')" oninput="setCustomValidity('')"/>
+  </div>
+
+  <div class="formgroup" id="password-form">
+    <label for="password">Password*</label>
+    <div class="password-input">
+      <input type="password" id="password" name="password" placeholder="Masukkan Password Baru" required 
+      oninvalid="this.setCustomValidity('Data tidak boleh kosong')" oninput="setCustomValidity('')"/>
+      <i id="pass-toggle-btn" class="fas fa-eye"></i>
+    </div>
+  </div>
+
+
+  <div class="formgroup" id="password-form2">
+    <label for="konfirmasi-password">Konfirmasi Password*</label>
+    <div class="password-input">
+      <input type="password" id="konfirmasi-password" name="konfirmasi-password" placeholder="Masukkan Kembali Password" required 
+      oninvalid="this.setCustomValidity('Data tidak boleh kosong')" oninput="setCustomValidity('')"/>
+      <i id="konfirmasi-pass-toggle-btn" class="fas fa-eye"></i>
+    </div>
+  </div>
+
+	<button type="submit" class="button-submit" id="submit">Simpan</button>
+  <footer class="copyright">
+    <p>&copy; 2023 Pemrograman Full Stack - Kelompok 6</p>
+  </footer>
+  </form>
+</div>
+
+
+<div class="karang" id="karang"></div>
+
+<script src="jquery-3.7.1.js"></script>
+<script src="script-jquery.js"></script> 
+</body>
+</html>
