@@ -1,6 +1,8 @@
-Thanks for downloading this template!
+Kelompok 6:
 
-Template Name: DevFolio
-Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+M. Ilham Wahyudi (2211501049)
+M. Luthfi Abdillah (2211501044)
+Virgiawan Aqil Ridwan (2211501018)
+Zefilla Ardya Salsabila (2211501027)
+Susi Fanlay (2211501024)
+M. Aziz Alfajri (2211501041)
