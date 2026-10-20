@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MasterPandaa/MasterPandaa/main/assets/banners/WebKita.svg" alt="WebKita Portal Banner" width="100%">
+  <img src="assets/banner.svg" alt="WebKita Portal Banner" width="100%">
 </p>
 
 <p align="center">
