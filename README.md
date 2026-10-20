@@ -1,69 +1,38 @@
-# WebKita — Biota Laut Interaktif & Edukasi Visual
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MasterPandaa/MasterPandaa/main/assets/banners/WebKita.svg" alt="WebKita Portal Banner" width="100%">
+</p>
 
-Aplikasi web interaktif bertema biota dan ekosistem laut yang dikembangkan sebagai proyek tugas perkuliahan pemrograman web.
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-HTML5_|_CSS3_|_JavaScript-3B82F6?style=flat-square" alt="Frontend">
+  <img src="https://img.shields.io/badge/Design-Responsive_Layout-10B981?style=flat-square" alt="Responsive">
+  <img src="https://img.shields.io/badge/Scope-Academic_Collaboration-8B5CF6?style=flat-square" alt="Academic">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-gray?style=flat-square" alt="License"></a>
+</p>
 
-WebKita menghadirkan simulasi akuarium interaktif berbasis web dengan animasi biota laut, kontrol visual interaktif menggunakan jQuery, serta sistem registrasi dan pendataan pengguna menggunakan PHP dan MySQL.
+## Overview
 
----
-
-## Fitur Utama
-
-- **Animasi & Interaksi Biota Laut**: Animasi pergerakan ikan dan elemen bawah laut responsif (*goldenfish*, *redfish*, ombak, dan terumbu karang).
-- **Interaksi Antarmuka Pengguna**: Manipulasi elemen antarmuka dinamis dan kontrol event menggunakan jQuery.
-- **Formulir Pendaftaran & Validasi**: Sistem input dan validasi data profil pengguna berbasis PHP.
-- **Penyimpanan Database Terstruktur**: Integrasi penyimpanan data pengguna ke database relasional MySQL.
-
----
-
-## Tech Stack
-
-- **Frontend**: HTML5, CSS3, JavaScript, jQuery 3.7.1
-- **Backend**: PHP
-- **Database**: MySQL (`databasepfs`)
+WebKita is a collaborative web development portal engineered as academic coursework. Built with **HTML5**, **CSS3**, and **vanilla JavaScript**, the project demonstrates modular layout principles, mobile-first responsive design, and cohesive team git branching workflows.
 
 ---
 
-## Menjalankan Proyek Secara Lokal
+## Core Capabilities
 
-### Prasyarat
-
-- Web Server lokal (Apache & MySQL via XAMPP / Laragon)
-- Web Browser modern
-
-### Langkah Instalasi
-
-1. **Clone repositori**:
-   ```bash
-   git clone https://github.com/MasterPandaa/WebKita.git
-   ```
-   Simpan di direktori root server web Anda (contoh: `htdocs/WebKita` atau `laragon/www/WebKita`).
-
-2. **Setup Database**:
-   - Buka **phpMyAdmin** atau CLI MySQL.
-   - Buat database baru bernama `databasepfs`.
-   - Import file skrip skema database:
-     ```sql
-     source databasesql.sql;
-     ```
-
-3. **Buka Aplikasi**:
-   - Jalankan modul Apache dan MySQL.
-   - Buka browser dan akses: `http://localhost/WebKita/index.html` atau `http://localhost/WebKita/home.html`.
+- **Responsive Grid Architecture**: Fluid viewport adaptation across mobile, tablet, and desktop displays.
+- **Component Styling**: Clean CSS design systems with consistent typography, button states, and card components.
+- **Collaborative Git Structure**: Demonstrates multi-contributor branching, code reviews, and structured directory organization.
 
 ---
 
-## Tim Pengembang (Kelompok 6)
+## Quickstart
 
-Proyek ini dikembangkan oleh Kelompok 6:
-- **M. Luthfi Abdillah** (2211501044)
-- **M. Ilham Wahyudi** (2211501049)
-- **Virgiawan Aqil Ridwan** (2211501018)
-- **Zefilla Ardya Salsabila** (2211501027)
-- **Susi Fanlay** (2211501024)
-- **M. Aziz Alfajri** (2211501041)
+```bash
+git clone https://github.com/MasterPandaa/WebKita.git
+cd WebKita
+# Open index.html directly in any web browser
+```
 
 ---
 
-## Lisensi
+## License
 
-Proyek ini dibuat untuk keperluan akademik dan pembelajaran pemrograman web.
+This project is licensed under the [MIT License](LICENSE).
